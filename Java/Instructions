@@ -1,0 +1,14 @@
+How to start
+
+1. Install Git
+
+2. Install a Git visual tool like: [GitExtensions](https://gitextensions.github.io/), [TortoiseGit](https://tortoisegit.org/) (or any other Git tool)
+You can also use the git command line (git bash)
+
+3. [Create a Bitbucket account](https://bitbucket.org/) using your email adress provided to the laboratory
+
+4. Clone the main OOP Laboratory repository
+You have to pull the new version of it each time I add new materials to it, so that your local copy will also be updated.
+
+5. Create your first private repository where you will add your solutions to the assignments
+The structure of your repo will be the following one: name it using your LastName_FirstName and create inside it one folder for each lab and put inside the corresponding assignments you solved
