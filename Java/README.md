@@ -4,10 +4,10 @@
 
 ### First steps
 
-- #### Git Tutorials
-    * 1 - [Installing GIT]
-    * 2 - [Fork and Clone]
-    * 3 - [Commit Push and Pull Request]
+- #### Git and Bitbucket
+    * 1 - [Installing GIT](https://git-scm.com/downloads)
+    * 2 - [Git Tutorial](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+    * 3 - [Bitbucket Tutorial](https://confluence.atlassian.com/bitbucket/create-and-clone-a-repository-800695642.html)
    
 - #### Java & Eclipse must-haves
     * [Installing Java JDK + Eclipse IDE](https://www.youtube.com/watch?v=CPGKMDvCUN4)
@@ -18,34 +18,34 @@
 
 ### Structure
  <pre>
-[Chapter 1: Java syntax basics]
+[Chapter 1: Java syntax basics](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%201%20-%20Basics/?at=master)
 </pre>
  <pre>
-[Chapter 2: Classes and Objects]
-</pre>
-
- <pre>
-[Chapter 3: Inheritance and Polymorphism] 
+[Chapter 2: Classes and Objects](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%202%20-%20Classes%20and%20Objects/?at=master)
 </pre>
 
  <pre>
-[Chapter 4: Inheritance and Interfaces]
+[Chapter 3: Inheritance and Polymorphism](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%203%20-%20Inheritance%20and%20Polymorphism/?at=master)
 </pre>
 
  <pre>
-[Chapter 5: Exceptions] 
+[Chapter 4: Inheritance and Interfaces](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%204%20-%20Inheritance%20and%20Interfaces/?at=master)
 </pre>
 
  <pre>
-[Chapter 6: Collections and Generics]
+[Chapter 5: Exceptions](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%205%20-%20Exceptions/?at=master) 
 </pre>
 
  <pre>
-[Chapter 7: GUI (Graphical User Interfaces)]
+[Chapter 6: Collections and Generics](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%206%20-%20Collections%20and%20Generics/?at=master)
 </pre>
 
  <pre>
-[Chapter 8: Multithreading]
+[Chapter 7: GUI (Graphical User Interfaces)](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%207%20-%20GUI/?at=master)
+</pre>
+
+ <pre>
+[Chapter 8: Multithreading](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%208%20-%20Multithreading/?at=master)
 </pre>
 
 
