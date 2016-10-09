@@ -2,10 +2,10 @@ How to start
 
 1. Install Git
 
-2. Install a Git visual tool like: [GitExtensions](https://gitextensions.github.io/), [TortoiseGit](https://tortoisegit.org/) (or any other Git tool)
+2. Install a Git visual tool like: GitExtensions(https://gitextensions.github.io/), TortoiseGit(https://tortoisegit.org/) (or any other Git tool you prefer)
 You can also use the git command line (git bash)
 
-3. [Create a Bitbucket account](https://bitbucket.org/) using your email adress provided to the laboratory
+3. Create a Bitbucket account(https://bitbucket.org/) using your email adress provided to the laboratory
 
 4. Clone the main OOP Laboratory repository
 You have to pull the new version of it each time I add new materials to it, so that your local copy will also be updated.
