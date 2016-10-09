@@ -17,36 +17,23 @@
 ##
 
 ### Structure
- <pre>
+ 
 [Chapter 1: Java syntax basics](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%201%20-%20Basics/?at=master)
-</pre>
- <pre>
+ 
 [Chapter 2: Classes and Objects](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%202%20-%20Classes%20and%20Objects/?at=master)
-</pre>
 
- <pre>
 [Chapter 3: Inheritance and Polymorphism](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%203%20-%20Inheritance%20and%20Polymorphism/?at=master)
-</pre>
 
- <pre>
 [Chapter 4: Inheritance and Interfaces](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%204%20-%20Inheritance%20and%20Interfaces/?at=master)
-</pre>
 
- <pre>
 [Chapter 5: Exceptions](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%205%20-%20Exceptions/?at=master) 
-</pre>
 
- <pre>
 [Chapter 6: Collections and Generics](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%206%20-%20Collections%20and%20Generics/?at=master)
-</pre>
-
- <pre>
+ 
 [Chapter 7: GUI (Graphical User Interfaces)](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%207%20-%20GUI/?at=master)
-</pre>
 
- <pre>
-[Chapter 8: Multithreading](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%208%20-%20Multithreading/?at=master)
-</pre>
+[Chapter 8: Multithreading - Optional](https://bitbucket.org/ioanajimborean/oop-laboratory-2016/src/e27ba460e978c74f3a14bb8eb871b88bbe0cb074/Java/Content/Chapter%208%20-%20Multithreading/?at=master)
+
 
 
 ##
