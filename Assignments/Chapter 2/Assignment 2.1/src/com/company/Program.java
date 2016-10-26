@@ -10,13 +10,11 @@ import com.company.Operations;
 import com.company.Term;
 import com.company.TermComparator;
 
-public class Main {
+public class Program {
     public static void main(String[] args) {
 
         Polynomial a = new Polynomial();
         Polynomial b = new Polynomial();
-
-        Term z = new Term(4, 5);
         Term x = new Term(8, 9);
         Term c = new Term(2, 3);
 
