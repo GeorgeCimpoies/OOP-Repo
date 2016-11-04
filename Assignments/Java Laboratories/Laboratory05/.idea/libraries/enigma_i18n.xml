@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="enigma-i18n">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/java/enigma-i18n.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
