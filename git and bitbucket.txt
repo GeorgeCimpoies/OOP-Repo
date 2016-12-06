@@ -1,0 +1,12 @@
+-create an account on bitbucket using your email adress provided to the laboratory
+-create a private repository called FirstName_LastName in which you will have one folder for each laboratory
+-in each folder, you will add your own solutions to the assignments from the Content section
+
+
+-install git
+-use gitbash, GitExtensions, GitTurtoise, GitLab for interacting with the repository
+-you will have two repositories: one with the laboratories materials and one with your own solutions to the assignments
+-git clone to get your first copy of the lab repo
+-git pull every time I add new materials to the repo so that your folder will be updated
+-add to your repo .gitignore file from the main repo
+-to add your solution, git status -> git add . ->git commit -m "message"->git push origin master
