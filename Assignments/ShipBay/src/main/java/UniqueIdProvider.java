@@ -1,7 +1,3 @@
-/**
- * Created by George Cimpoies on 11/17/2016.
- */
-
 import java.util.HashSet;
 import java.util.UUID;
 
@@ -16,14 +12,14 @@ public class UniqueIdProvider {
     }
 
 
-    private HashSet<String> compartmentIdHistory = new HashSet<>();
+    private HashSet<String> shelfIdHistory = new HashSet<>();
 
     public String getUniqueId() {
         String generatedId = UUID.randomUUID().toString().substring(0, 4);
-        while (compartmentIdHistory.contains(generatedId)) {
+        while (shelfIdHistory.contains(generatedId)) {
             generatedId = UUID.randomUUID().toString().substring(0, 4);
         }
-        compartmentIdHistory.add(generatedId);
+        shelfIdHistory.add(generatedId);
         return generatedId;
     }
 }
