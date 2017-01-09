@@ -1,4 +1,4 @@
-import java.util.HashSet;
+import java.util.*;
 
 
 /**
@@ -9,7 +9,7 @@ public class PassengerCompartment extends Compartment {
     public final int ticketPrice = 100;
     public final int maximumCompartmentCapacity = 100;
     private String passengerCompartmentId;
-    private HashSet<Passenger> passengerList;
+    private LinkedHashSet<Passenger> passengerList;
 
     public String getPassengerCompartmentId() {
         return passengerCompartmentId;
@@ -21,14 +21,11 @@ public class PassengerCompartment extends Compartment {
 
     public PassengerCompartment(){
         this.passengerCompartmentId = UniqueIdProvider.getInstance().getUniqueId();
-        this.passengerList  = new HashSet<>();
+        this.passengerList  = new LinkedHashSet<>();
     }
 
     public int computeProfit() {
         return passengerList.size()*ticketPrice;
     }
 
-    public void addPassenger(String name){
-        passengerList.add(new Passenger(name));
-    }
 }

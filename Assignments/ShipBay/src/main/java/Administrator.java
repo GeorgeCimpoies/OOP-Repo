@@ -45,4 +45,27 @@ public class Administrator {
             }
         }
     }
+
+    public void addPassenger(String shipId, String passengerName){
+        for (Ship ship:ShipBay.shipsInBay) {
+            if(ship.getShipIdentification().equals(shipId)){
+                for (PassengerCompartment compartment: (LinkedHashSet<PassengerCompartment>) ship.getCompartmentList()
+                        ) {
+                    compartment.getPassengerList().add(new Passenger(passengerName));
+                }
+            }
+        }
+    }
+
+    public void addCargoItem(String shipId, String cargoItemName, int cargoItemProfit, int numberOfCargoItems){
+        for (Ship ship:ShipBay.shipsInBay) {
+            if(ship.getShipIdentification().equals(shipId)){
+                for (CargoCompartment compartment: (LinkedHashSet<CargoCompartment>) ship.getCompartmentList()
+                        ) {
+                    compartment.addCargoItem(new CargoItem(cargoItemName, cargoItemProfit), numberOfCargoItems);
+                }
+            }
+        }
+    }
+
 }

@@ -17,14 +17,17 @@ public class CargoCompartment extends Compartment {
         return cargoItem;
     }
 
-    public CargoCompartment(CargoItem cargoItem, int numberOfItems) {
+    public CargoCompartment() {
         this.cargoCompartmentId = UniqueIdProvider.getInstance().getUniqueId();
-        this.cargoItem = cargoItem;
-        this.numberOfItems = numberOfItems;
     }
 
     public int computeProfit() {
         return cargoItem.getProfit()*numberOfItems;
+    }
+
+    public void addCargoItem(CargoItem cargoItem, int numberOfItems){
+        this.cargoItem = cargoItem;
+        this.numberOfItems = numberOfItems;
     }
 
 }

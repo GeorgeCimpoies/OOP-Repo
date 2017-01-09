@@ -12,14 +12,14 @@ public class UniqueIdProvider {
     }
 
 
-    private HashSet<String> shelfIdHistory = new HashSet<>();
+    private HashSet<String> entityIdHistory = new HashSet<>();
 
     public String getUniqueId() {
         String generatedId = UUID.randomUUID().toString().substring(0, 4);
-        while (shelfIdHistory.contains(generatedId)) {
+        while (entityIdHistory.contains(generatedId)) {
             generatedId = UUID.randomUUID().toString().substring(0, 4);
         }
-        shelfIdHistory.add(generatedId);
+        entityIdHistory.add(generatedId);
         return generatedId;
     }
 }
