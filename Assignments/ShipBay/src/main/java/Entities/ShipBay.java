@@ -1,3 +1,7 @@
+package entities;
+
+import ship.Ship;
+
 import java.util.*;
 /**
  * Created by cimpo_keyo3s2 on 20/12/2016.

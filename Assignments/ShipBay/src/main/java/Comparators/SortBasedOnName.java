@@ -1,4 +1,7 @@
+package comparators;
+
 import java.util.Comparator;
+import ship.Ship;
 
 public class SortBasedOnName implements Comparator
 {

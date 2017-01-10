@@ -1,10 +1,15 @@
+package compartments;
+
+import carriables.Passenger;
+import uniqueIdProvider.UniqueIdProvider;
+
 import java.util.*;
 
 
 /**
  * Created by George Cimpoies on 1/9/2017.
  */
-public class PassengerCompartment extends Compartment {
+public class PassengerCompartment implements Compartment {
 
     public final int ticketPrice = 100;
     public final int maximumCompartmentCapacity = 100;

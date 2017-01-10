@@ -1,18 +1,20 @@
-/**
+package controller; /**
  * Created by George Cimpoies on 1/9/2017.
  */
 
-import java.util.*;
+import entities.Administrator;
+import entities.ShipBay;
+import ship.*;
 
 public class Controller {
 
     public static void main(String[] args) {
 
-        System.out.println("Ship Bay Initialized");
+        System.out.println("ship.ship Bay Initialized");
 
-        Ship ship1 = new Ship("HMS Titanic", ShipType.PASSENGER, 3);
-        Ship ship2 = new Ship("HMS Aubrey", ShipType.PASSENGER, 5);
-        Ship ship3 = new Ship("Santa Maria", ShipType.CARGO, 2);
+        Ship ship1 = new Ship("HMS Titanic", Ship.ShipType.PASSENGER, 3);
+        Ship ship2 = new Ship("HMS Aubrey", Ship.ShipType.PASSENGER, 5);
+        Ship ship3 = new Ship("Santa Maria", Ship.ShipType.CARGO, 4);
 
 
         ShipBay.getInstance().receiveShip(ship1);
