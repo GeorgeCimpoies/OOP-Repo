@@ -36,7 +36,7 @@
             @Html.DisplayFor(modelItem => item.Publisher.PublisherName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ReleaseDate)
+            @String.Format("{0:dd/MM/yyyy}", item.ReleaseDate)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.GameDescription)
