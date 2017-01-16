@@ -1,0 +1,101 @@
+﻿@model AssassinsCreedApp.Models.Game
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Game</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Publisher.PublisherName)
+        </dt>
+       
+        <dd>
+            @Html.DisplayFor(model => model.Publisher.PublisherName)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+       
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.GameDescription)
+        </dt>
+        
+        <dd>
+            @Html.DisplayFor(model => model.GameDescription)
+        </dd>
+        
+
+
+
+        @foreach (var item in Model.Developers.Where(d => d.Games.Any(g => g.GameId == Model.GameId)))
+        {
+
+            <dt>
+                @Html.DisplayNameFor(modelItem => item.DeveloperName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(modelItem => item.DeveloperName)
+            </dd>
+        }
+        
+        @foreach (var item in Model.DownloadableContents.Where(d => d.GameId == Model.GameId))
+        {
+
+            <dt>
+                @Html.DisplayNameFor(modelItem => item.DLC)
+            </dt>
+            <dd>
+                @Html.DisplayFor(modelItem => item.DLC)
+            </dd>
+        }
+        
+        @foreach (var item in Model.PlatformMedias.Where(d => d.GameId == Model.GameId))
+        {
+
+            <dt>
+                @Html.DisplayNameFor(modelItem => item.Medium.MediaType)
+            </dt>
+            <dd>
+                @Html.DisplayFor(modelItem => item.Medium.MediaType)
+            </dd>
+        }
+        
+        @foreach (var item in Model.PlatformMedias.Where(d => d.GameId == Model.GameId))
+        {
+
+            <dt>
+                @Html.DisplayNameFor(modelItem => item.Platform.PlatformName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(modelItem => item.Platform.PlatformName)
+            </dd>
+        }
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GameId}) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
